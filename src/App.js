@@ -1,6 +1,7 @@
 import GlobalStyle from './styles/global';
 
 import ActionButton from './components/ActionButton';
+import AboutUs from './components/AboutUs';
 
 import logo from './assets/run-logo.jpeg';
 import hero1 from './assets/hero-1-cut.jpg';
@@ -61,6 +62,7 @@ function App() {
           </span>
         </SecondText>
       </SecondContent>
+      <AboutUs />
     </Container>
   );
 }

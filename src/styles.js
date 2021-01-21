@@ -36,6 +36,7 @@ export const SecondContent = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  margin-bottom: 120px;
 
   > img {
     width: 50vw;
