@@ -14,7 +14,7 @@ export const People = styled.div`
   flex-direction: row;
   padding-top: 40px;
 
-  @media (max-width: 700px) {
+  @media (max-width: 400px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 20px;
