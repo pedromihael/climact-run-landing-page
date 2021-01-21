@@ -7,7 +7,7 @@ export default createGlobalStyle`
       outline: 0;
       box-sizing: border-box;
       scroll-behavior: smooth;
-      font-family: 'Bebas Neue', cursive;
+      font-family: 'PT Sans', sans-serif;
       &::-webkit-scrollbar {
           display: none;
       }
@@ -16,5 +16,7 @@ export default createGlobalStyle`
   body {
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
+      color: #233863;
+
   } 
 `;
