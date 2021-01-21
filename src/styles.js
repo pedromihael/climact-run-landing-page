@@ -150,3 +150,14 @@ export const MainText = styled.div`
     }
   }
 `;
+
+export const CallToActionFooter = styled.div`
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  @media (max-width: 700px) {
+    padding-top: 20px;
+  }
+`;

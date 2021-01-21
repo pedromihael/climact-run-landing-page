@@ -14,6 +14,7 @@ import {
   SecondContent,
   MainText,
   SecondText,
+  CallToActionFooter,
 } from './styles';
 
 function App() {
@@ -63,6 +64,9 @@ function App() {
         </SecondText>
       </SecondContent>
       <AboutUs />
+      <CallToActionFooter>
+        <ActionButton>QUERO SABER MAIS</ActionButton>
+      </CallToActionFooter>
     </Container>
   );
 }
