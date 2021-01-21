@@ -3,7 +3,7 @@ import GlobalStyle from './styles/global';
 import ActionButton from './components/ActionButton';
 import AboutUs from './components/AboutUs';
 
-import logo from './assets/run-logo.jpeg';
+import logo from './assets/transparent-logo.png';
 import hero1 from './assets/hero-1-cut.jpg';
 import hero2 from './assets/hero-3.jpg';
 
@@ -35,7 +35,9 @@ function App() {
             E o melhor, quem sai ganhando é você. <br />
             Sério.
           </span>
-          <ActionButton>QUERO SABER MAIS</ActionButton>
+          <ActionButton link="https://forms.gle/DkzrKaUeJTnE5DebA">
+            QUERO SABER MAIS
+          </ActionButton>
         </MainText>
         <img src={hero1} alt="logo" />
       </MainContent>
@@ -65,7 +67,9 @@ function App() {
       </SecondContent>
       <AboutUs />
       <CallToActionFooter>
-        <ActionButton>QUERO SABER MAIS</ActionButton>
+        <ActionButton link="https://forms.gle/DkzrKaUeJTnE5DebA">
+          QUERO SABER MAIS
+        </ActionButton>
       </CallToActionFooter>
     </Container>
   );
