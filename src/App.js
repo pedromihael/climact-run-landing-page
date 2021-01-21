@@ -26,7 +26,7 @@ function App() {
       </Logo>
       <MainContent>
         <MainText>
-          <h1>O CLIMA DO MUNDO ESTÁ MUNDANDO</h1>
+          <h1>O CLIMA DO MUNDO ESTÁ MUDANDO</h1>
           <span>
             E nós queremos mudar isso. E vamos. Nós e você. Deixe seu carro de
             fora dessa.
