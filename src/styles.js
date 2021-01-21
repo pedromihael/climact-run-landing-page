@@ -17,6 +17,13 @@ export const Logo = styled.div`
   img {
     width: 100px;
   }
+
+  @media (max-width: 700px) {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const MainContent = styled.div`
@@ -28,6 +35,19 @@ export const MainContent = styled.div`
     position: absolute;
     top: 0;
     right: 0;
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+
+    > img {
+      position: static;
+      top: none;
+      right: none;
+      width: 100vw;
+      margin-top: 40px;
+    }
   }
 `;
 
@@ -41,6 +61,21 @@ export const SecondContent = styled.div`
   > img {
     width: 50vw;
     height: auto;
+  }
+
+  @media (max-width: 700px) {
+    margin-bottom: 40px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas:
+      'description'
+      'heroImage';
+
+    > img {
+      padding: 40px;
+      width: 100vw;
+      grid-area: heroImage;
+    }
   }
 `;
 
@@ -56,6 +91,17 @@ export const SecondText = styled.div`
     font-weight: 700;
     padding-top: 20px;
     text-align: right;
+  }
+
+  @media (max-width: 700px) {
+    grid-area: description;
+    padding: 0 20px;
+
+    span {
+      padding-top: 0;
+      padding-top: 20px;
+      text-align: left;
+    }
   }
 `;
 
@@ -79,5 +125,28 @@ export const MainText = styled.div`
     width: 60%;
     font-weight: 700;
     padding-top: 20px;
+  }
+
+  @media (max-width: 700px) {
+    padding-left: 20px;
+    width: 100vw;
+    padding: 0 20px;
+    align-items: center;
+
+    h1 {
+      margin-bottom: 20px;
+      text-align: center;
+      width: 100%;
+      font-size: 33px;
+      line-height: 40px;
+    }
+
+    span {
+      padding-left: 40px;
+      padding-right: 40px;
+
+      width: 100%;
+      text-align: center;
+    }
   }
 `;

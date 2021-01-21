@@ -13,6 +13,13 @@ export const People = styled.div`
   padding: 10px 150px;
   flex-direction: row;
   padding-top: 40px;
+
+  @media (max-width: 700px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+    padding: 30px 40px;
+  }
 `;
 
 export const Item = styled.div`
@@ -33,6 +40,12 @@ export const Item = styled.div`
     a {
       text-decoration: none;
       color: inherit;
+    }
+  }
+
+  @media (max-width: 700px) {
+    span {
+      width: 100%;
     }
   }
 `;
