@@ -35,7 +35,7 @@ function App() {
             E o melhor, quem sai ganhando é você. <br />
             Sério.
           </span>
-          <ActionButton link="https://forms.gle/DkzrKaUeJTnE5DebA">
+          <ActionButton link="https://forms.gle/Kktw61LLdyNja7ad7">
             QUERO SABER MAIS
           </ActionButton>
         </MainText>
