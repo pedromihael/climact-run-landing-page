@@ -35,7 +35,9 @@ function App() {
             E o melhor, quem sai ganhando é você. <br />
             Sério.
           </span>
-          <ActionButton link="https://forms.gle/Kktw61LLdyNja7ad7">
+          <ActionButton
+            link={`https://docs.google.com/forms/d/1k4QtmTLs_cTLZA_o7DJvDsKF14pqTu6F2DAaVpChZjE/edit?ts=6009b78f&gxids=7628`}
+          >
             QUERO SABER MAIS
           </ActionButton>
         </MainText>
@@ -67,7 +69,9 @@ function App() {
       </SecondContent>
       <AboutUs />
       <CallToActionFooter>
-        <ActionButton link="https://forms.gle/DkzrKaUeJTnE5DebA">
+        <ActionButton
+          link={`https://docs.google.com/forms/d/1k4QtmTLs_cTLZA_o7DJvDsKF14pqTu6F2DAaVpChZjE/edit?ts=6009b78f&gxids=7628`}
+        >
           QUERO SABER MAIS
         </ActionButton>
       </CallToActionFooter>
