@@ -53,8 +53,8 @@ function App() {
           <span>
             Imagine, por exemplo, que de casa até o trabalho, você roda 11Km.
             Por dia, então, são 22Km. Num mês, são 440Km rodados. Pra você pode
-            parecer pouco, mas para o planeta, são 56 TONELADAS de CO2 que VOCÊ
-            joga na atmosfera.
+            parecer pouco, mas para o planeta, são 56 quilogramas de CO2 que
+            VOCÊ joga na atmosfera.
           </span>
           <span>
             Através de um app com desafios que geram pontos que podem ser
